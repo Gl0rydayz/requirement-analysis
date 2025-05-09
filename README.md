@@ -72,3 +72,31 @@ Non-functional requirements define the quality attributes, constraints, or perfo
   - The system shall be accessible on both desktop and mobile devices with a consistent user interface.
 
 These functional and non-functional requirements together provide a complete picture of the booking management system’s capabilities and performance expectations, guiding its development and testing phases.
+
+## Acceptance Criteria
+
+Acceptance Criteria are specific, measurable conditions that a software feature or system must meet to be considered complete and acceptable by stakeholders. They are established during Requirement Analysis to define the boundaries of a feature’s functionality and ensure it aligns with user expectations and business goals. Acceptance Criteria serve as a benchmark for testing and validation, providing clarity on what constitutes a successful implementation.
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance Criteria play a vital role in Requirement Analysis for the following reasons:
+
+- **Clarity and Precision**: They provide a clear definition of what a feature must achieve, reducing ambiguity and ensuring that developers, testers, and stakeholders have a shared understanding of the expected outcome.
+- **Quality Assurance**: Acceptance Criteria act as the basis for testing, enabling teams to verify that the system meets the specified requirements and performs as intended.
+- **Stakeholder Alignment**: By defining measurable criteria upfront, they ensure that the delivered feature satisfies stakeholder needs, minimizing disputes or rework.
+- **Scope Management**: They help prevent scope creep by setting explicit boundaries for what is included in a feature, ensuring that only agreed-upon functionality is implemented.
+- **Efficient Development**: Clear criteria guide developers in focusing on the essential aspects of a feature, streamlining the development and testing process.
+
+In the context of the booking management system, Acceptance Criteria ensure that features like the Checkout feature are implemented correctly, meet user needs, and adhere to quality standards.
+
+### Example of Acceptance Criteria for the Checkout Feature
+
+The Checkout feature in the booking management system allows users to finalize their booking by reviewing their selections, entering payment details, and confirming the transaction. Below is an example of Acceptance Criteria for this feature, written in a clear, testable format:
+
+- **Given** a user has selected a service, date, and time for a booking, **when** they navigate to the Checkout page, **then** the system shall display a summary of the booking details (service, date, time, and total cost).
+- **Given** a user is on the Checkout page, **when** they enter valid payment details (e.g., credit card number, expiry date, CVV), **then** the system shall process the payment and display a confirmation message.
+- **Given** a user enters invalid payment details, **when** they submit the payment, **then** the system shall display an error message (e.g., “Invalid card number”) and prompt the user to re-enter the details.
+- **Given** a user completes the Checkout process successfully, **when** the payment is confirmed, **then** the system shall send an email confirmation with the booking details within 5 minutes.
+- **Given** a user is on the Checkout page, **when** they click “Cancel,” **then** the system shall return them to the booking selection page without processing the payment.
+
+These Acceptance Criteria ensure that the Checkout feature is functional, user-friendly, and robust, providing a clear standard for development and testing.

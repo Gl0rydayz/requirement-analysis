@@ -32,3 +32,43 @@ Requirement Analysis is a cornerstone of the software development lifecycle (SDL
 3. **Enhances Product Quality and User Satisfaction**: By defining precise functional and non-functional requirements, Requirement Analysis ensures that the final product aligns with user expectations and business goals. It also enables the creation of clear acceptance criteria, which are used to verify that the system meets quality standards. In the context of the booking management system, Requirement Analysis ensures that the system is intuitive, reliable, and scalable, leading to higher user satisfaction and a successful project outcome.
 
 These reasons highlight why Requirement Analysis is indispensable for delivering high-quality software that meets stakeholder needs efficiently and effectively.
+
+## Key Activities in Requirement Analysis
+
+Requirement Analysis involves a series of structured activities to ensure that the needs of stakeholders are accurately captured, analyzed, and documented. The five key activities in this process are:
+
+- **Requirement Gathering**: This activity involves collecting information about the project’s objectives, stakeholders, and high-level needs. It includes identifying the business goals, user expectations, and technical constraints through methods like stakeholder interviews, surveys, or reviewing existing systems. For the booking management system, requirement gathering might involve discussions with clients to understand the need for features like online booking or automated notifications.
+- **Requirement Elicitation**: Elicitation focuses on extracting detailed requirements from stakeholders using techniques such as workshops, brainstorming sessions, questionnaires, or prototyping. This step ensures that both explicit and implicit needs are uncovered. In the booking management system, elicitation could involve creating a prototype of the booking interface to gather feedback from end-users on usability.
+- **Requirement Documentation**: This activity involves organizing and recording the gathered requirements in a clear, structured format, such as user stories, use cases, or requirement specification documents. Documentation ensures that requirements are well-defined and accessible to all stakeholders. For example, the booking management system’s requirements might be documented as “The system shall allow users to cancel a booking within 24 hours.”
+- **Requirement Analysis and Modeling**: This step involves analyzing the requirements to identify inconsistencies, ambiguities, or conflicts and modeling them using tools like use case diagrams, data flow diagrams, or entity-relationship diagrams. It helps in visualizing how the system will function. For the booking management system, a use case diagram might be created to illustrate interactions between users and the booking process.
+- **Requirement Validation**: Validation ensures that the documented requirements accurately reflect stakeholder needs and are feasible to implement. This is done through reviews, walkthroughs, or stakeholder sign-offs. In the booking management system, validation might involve presenting the requirement “The system shall support 1,000 concurrent users” to stakeholders to confirm its necessity and feasibility.
+
+These activities collectively ensure that the requirements are comprehensive, clear, and aligned with the project’s goals, setting the stage for successful development.
+
+## Types of Requirements
+
+Requirements for a software system are broadly categorized into functional and non-functional requirements. Below, these types are defined and illustrated with examples specific to the booking management system.
+
+### Functional Requirements
+
+Functional requirements describe the specific features, capabilities, or behaviors that the system must provide to meet user needs. They define **what** the system should do and are typically expressed as actions or tasks the system must perform.
+
+- **Definition**: Functional requirements specify the functionalities, inputs, outputs, and interactions of the system. They are often documented as use cases or user stories and are critical for ensuring the system delivers the expected services.
+- **Examples for the Booking Management System**:
+  - The system shall allow users to create a booking by selecting a date, time, and service.
+  - The system shall enable users to cancel a booking within 24 hours of creation.
+  - The system shall send an email confirmation to users after a booking is successfully made.
+  - The system shall allow administrators to view all bookings for a specific date.
+
+### Non-functional Requirements
+
+Non-functional requirements define the quality attributes, constraints, or performance criteria that the system must meet. They describe **how** the system should perform rather than what it should do, focusing on aspects like usability, performance, and security.
+
+- **Definition**: Non-functional requirements specify the system’s operational characteristics, such as speed, reliability, scalability, or security. They ensure the system is efficient, user-friendly, and robust under various conditions.
+- **Examples for the Booking Management System**:
+  - The system shall handle up to 1,000 concurrent users without performance degradation.
+  - The system shall ensure that user data is encrypted using HTTPS for secure transactions.
+  - The system shall have a response time of less than 2 seconds for booking requests.
+  - The system shall be accessible on both desktop and mobile devices with a consistent user interface.
+
+These functional and non-functional requirements together provide a complete picture of the booking management system’s capabilities and performance expectations, guiding its development and testing phases.
